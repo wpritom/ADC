@@ -6,7 +6,7 @@ float val;
 
 void loop() {
   // put your main code here, to run repeatedly:
-  val = analogRead(A2);
+  val = analogRead(A1);
   Serial.println(val);
   delay(400);
 }
